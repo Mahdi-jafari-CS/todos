@@ -1,5 +1,5 @@
  import { useState } from 'react'
-import './App.css'
+import './fanta.css'
 import { Header } from './components/Header'
 import { Tabs } from './components/Tabs'
 import { TodoList } from './components/TodoList'
@@ -14,7 +14,8 @@ function App() {
       <Tabs />
       <TodoList />
       <TodoInput />
-      </>
+       
+    </ >
   )
 }
 
